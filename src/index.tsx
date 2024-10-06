@@ -1,20 +1,21 @@
 import React from "react";
 
-const CookieBotLoader = ()=>{
+const CookieBotLoader = () => {
 
-    const CookieBotUrl = "https://consent.cookiebot.com/uc.js";
 
     // @ts-ignore
     const CookieBotID = process.env.COOKIEBOT_ID
     //@ts-ignore
     const CookieBotDebug = process.env.COOKIEBOT_DEBUG || "false"
+    // @ts-ignore
+    const CookieBotUrl = process.env.COOKIEBOT_URL || "https://consent.cookiebot.com/uc.js";
 
-    if(CookieBotDebug === "true"){
-        if(CookieBotID === undefined){
+
+    if (CookieBotDebug === "true") {
+        if (CookieBotID === undefined) {
             console.warn("CookieBotID is not set")
-        }
-        else {
-            console.log("CookieBotID is set to",CookieBotID)
+        } else {
+            console.log("CookieBotID is set to", CookieBotID)
         }
     }
 
@@ -34,8 +35,8 @@ const CookieBotLoader = ()=>{
             >
             </script>
         )
-    }else {
-        if(CookieBotDebug === "true"){
+    } else {
+        if (CookieBotDebug === "true") {
             console.log("The Cookie Bar is not Work in Non Production - But is Generally Working");
         }
         return null;

@@ -44,11 +44,11 @@ function App() {
 ## Options
 Set in your .env File
 
-| Option | Type     | Description                   | Default   |
-|--------|----------|-------------------------------|-----------|
-| COOKIEBOT_ID | `string` | The ID of your Domain         | `""`      |
-| COOKIEBOT_DEBUG | `string` | Enable the Debug Mode         | `"false"` |
-
+| Option | Type     | Description            | Default   |
+|--------|----------|------------------------|-----------|
+| COOKIEBOT_ID | `string` | The ID of your Domain  | `""`      |
+| COOKIEBOT_DEBUG | `string` | Enable the Debug Mode  | `"false"` |
+| COOKIEBOT_URL | `string` | The URL from Cookiebot | `"https://consent.cookiebot.com/uc.js"` |
 ## Roadmap
 
 - More Config Options
