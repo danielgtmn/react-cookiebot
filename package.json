@@ -1,6 +1,6 @@
 {
   "name": "@gietmanic/react-cookiebot",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "The Cookiebot Consent Banner Loader is a streamlined script designed to effortlessly integrate the Cookiebot consent management platform into your website. This lightweight, GDPR-compliant solution ensures that your site adheres to international privacy regulations by managing and documenting visitor consents for cookies and tracking technologies. Easy to implement and operate, the Cookiebot Loader enhances user trust by providing clear options to accept or reject cookies, maintaining a balance between compliance and user experience.",
   "main": "./dist/index.js",
@@ -26,12 +26,12 @@
   "author": "Daniel Gietmann <hello@gietmanic.com>",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "@types/react": "^18.2.64",
-    "react": "^18.2.0",
-    "react-dom": "^18.3.1",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.2"
+    "@changesets/cli": "^2.27.11",
+    "@types/react": "^19.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
     "react": "^18.2.0",
